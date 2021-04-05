@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>📝 TIL(Today I Learned) 网站施工中333111</ShortName>
-  <Description>Search 📝 TIL(Today I Learned) 网站施工中333111</Description>
+  <ShortName>📝 今日所学</ShortName>
+  <Description>Search 📝 今日所学</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">https://wooodhead.com/img/logo.png</Image>
   <Url type="text/html" method="get" template="https://wooodhead.com/search?q={searchTerms}"/>
