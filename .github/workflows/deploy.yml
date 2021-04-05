@@ -1,0 +1,49 @@
+name: deploy
+# on:
+#   push:
+#     branches:
+#       - 'test/notion2github**'
+#   schedule:
+#     - cron: '0 14 * * *'
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        default: 'warning'
+  schedule:
+    - cron:  '0,30 1,2 * * *'
+jobs:
+  sleep:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Sleep for 300 seconds
+      uses: jakejarvis/wait-action@master
+      with:
+        time: '300s'
+
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: Test Build
+      run: |
+        if [ -e yarn.lock ]; then
+        yarn install --frozen-lockfile
+        elif [ -e package-lock.json ]; then
+        npm ci
+        else
+        npm i
+        fi
+        npm run build
+    - name: Release to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
