@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>📝 TIL(Today I Learned) 网站施工中333111 Blog</title>
+        <link>https://wooodhead.com/log/2020</link>
+        <description>📝 TIL(Today I Learned) 网站施工中333111 Blog</description>
+        <lastBuildDate>Mon, 05 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[200711]]></title>
+            <link>https://wooodhead.com/log/2020/200711</link>
+            <guid>200711</guid>
+            <pubDate>Mon, 05 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[HTTP]]></description>
+        </item>
+        <item>
+            <title><![CDATA[200301]]></title>
+            <link>https://wooodhead.com/log/2020/200301</link>
+            <guid>200301</guid>
+            <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[인터넷 강좌로는 이해가 안되는 점들이 많아서 '인사이드 자바스크립트' ebook을 구입해 공부한다.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[201120]]></title>
+            <link>https://wooodhead.com/log/2020/201120</link>
+            <guid>201120</guid>
+            <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[쿠키와 인증(Auth)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[201207]]></title>
+            <link>https://wooodhead.com/log/2020/201207</link>
+            <guid>201207</guid>
+            <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[회고]]></description>
+        </item>
+        <item>
+            <title><![CDATA[201224]]></title>
+            <link>https://wooodhead.com/log/2020/201224</link>
+            <guid>201224</guid>
+            <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Github에 있는 Pull Request를 Local로 가져오기]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Python 배포]]></title>
+            <link>https://wooodhead.com/log/2020/python-배포</link>
+            <guid>python-배포</guid>
+            <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[파이썬(PYTHON) #25\_ 파이썬 패키지 등록하기 (pip 배포하기)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[우아한테크캠프 2일차]]></title>
+            <link>https://wooodhead.com/log/2020/우아한테크캠프-2일차</link>
+            <guid>우아한테크캠프-2일차</guid>
+            <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Github 위키와 이슈]]></description>
+        </item>
+    </channel>
+</rss>

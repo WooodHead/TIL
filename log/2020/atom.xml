@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wooodhead.com/log/2020</id>
+    <title>📝 TIL(Today I Learned) 网站施工中333111 Blog</title>
+    <updated>2021-04-05T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://wooodhead.com/log/2020"/>
+    <subtitle>📝 TIL(Today I Learned) 网站施工中333111 Blog</subtitle>
+    <icon>https://wooodhead.com/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[200711]]></title>
+        <id>200711</id>
+        <link href="https://wooodhead.com/log/2020/200711"/>
+        <updated>2021-04-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[HTTP]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[200301]]></title>
+        <id>200301</id>
+        <link href="https://wooodhead.com/log/2020/200301"/>
+        <updated>2021-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[인터넷 강좌로는 이해가 안되는 점들이 많아서 '인사이드 자바스크립트' ebook을 구입해 공부한다.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[201120]]></title>
+        <id>201120</id>
+        <link href="https://wooodhead.com/log/2020/201120"/>
+        <updated>2021-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[쿠키와 인증(Auth)]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[201207]]></title>
+        <id>201207</id>
+        <link href="https://wooodhead.com/log/2020/201207"/>
+        <updated>2021-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[회고]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[201224]]></title>
+        <id>201224</id>
+        <link href="https://wooodhead.com/log/2020/201224"/>
+        <updated>2021-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Github에 있는 Pull Request를 Local로 가져오기]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python 배포]]></title>
+        <id>python-배포</id>
+        <link href="https://wooodhead.com/log/2020/python-배포"/>
+        <updated>2021-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[파이썬(PYTHON) #25\_ 파이썬 패키지 등록하기 (pip 배포하기)]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[우아한테크캠프 2일차]]></title>
+        <id>우아한테크캠프-2일차</id>
+        <link href="https://wooodhead.com/log/2020/우아한테크캠프-2일차"/>
+        <updated>2021-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Github 위키와 이슈]]></summary>
+    </entry>
+</feed>
