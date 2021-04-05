@@ -1,4 +1,5 @@
 const CATEGORY_SLUGS = {
+  notes: 'Notes',
   algorithms: 'Algorithms',
   cs: 'CS',
   frontend: 'Frontend',
@@ -6,6 +7,7 @@ const CATEGORY_SLUGS = {
 };
 
 const SUB_CATEGORY_SLUGS = {
+  notes: 'Notes',
   programmers: 'Programmers',
   'design-pattern': 'Design Pattern',
   'system-programming': 'System Programming',
