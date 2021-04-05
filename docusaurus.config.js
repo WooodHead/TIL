@@ -26,7 +26,7 @@ module.exports = {
       appId: 'CPGK41PHIV',
     },
     // colorMode: {
-      // defaultMode: 'dark',
+    // defaultMode: 'dark',
     // },
     hideableSidebar: true,
     prism: {
@@ -158,25 +158,25 @@ module.exports = {
     ],
   ],
   plugins: [
-    // 'docusaurus-plugin-sass',
-    // [
-    //   '@docusaurus/plugin-content-blog',
-    //   {
-    //     id: 'twoZeroLog',
-    //     routeBasePath: 'log/2020',
-    //     path: './log/2020',
-    //     editUrl: 'https://github.com/younho9/til/edit/main/',
-    //   },
-    // ],
-    // [
-    //   '@docusaurus/plugin-content-blog',
-    //   {
-    //     id: 'twoOneLog',
-    //     routeBasePath: 'log/2021',
-    //     path: './log/2021',
-    //     editUrl: 'https://github.com/younho9/til/edit/main/',
-    //   },
-    // ],
+    'docusaurus-plugin-sass',
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'twoZeroLog',
+        routeBasePath: 'log/2020',
+        path: './log/2020',
+        editUrl: 'https://github.com/younho9/til/edit/main/',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'twoOneLog',
+        routeBasePath: 'log/2021',
+        path: './log/2021',
+        editUrl: 'https://github.com/younho9/til/edit/main/',
+      },
+    ],
     // [
     //   '@docusaurus/plugin-pwa',
     //   {
