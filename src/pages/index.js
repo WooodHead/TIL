@@ -71,7 +71,7 @@ export default function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl('docs/algorithms/1-programmers/42746-가장-큰-수')}>
               Get Started
             </Link>
           </div>
