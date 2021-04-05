@@ -67,8 +67,9 @@ module.exports = {
         //     { to: 'log/2020', label: '2020 Log' },
         //   ],
         // },
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/younho9/til',
+          href: 'https://github.com/wooodhead/til',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
@@ -80,6 +81,7 @@ module.exports = {
           className: 'header-notion-link',
           'aria-label': 'Notion CMS',
         },
+
       ],
     },
     footer: {
@@ -167,7 +169,7 @@ module.exports = {
           showLastUpdateTime: true,
         },
         theme: {
-          // customCss: require.resolve('./src/css/custom.scss'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       },
     ],
