@@ -1,5 +1,5 @@
 const CATEGORY_SLUGS = {
-  notes: 'Notes',
+  // notes: 'Notes',
   algorithms: 'Algorithms',
   cs: 'CS',
   frontend: 'Frontend',

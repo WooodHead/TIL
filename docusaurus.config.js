@@ -8,13 +8,13 @@ let docNavs = Object.entries(CATEGORY_SLUGS).map(([category, categorySlug]) => (
 }));
 console.log('docNavs', docNavs);
 
-docNavs = [
-  {
-    to: 'docs/getting-started.md',
-    activeBasePath: 'docs/notes',
-    label: 'Notes'
-  },
-]
+// docNavs = [
+//   {
+//     to: 'docs/notes/2-notes/note1',
+//     activeBasePath: 'docs/notes',
+//     label: 'Notes'
+//   },
+// ]
 
 const docFooters = docNavs.map(({ to, label }) => ({ to, label }));
 
@@ -48,7 +48,14 @@ module.exports = {
       },
       items: [
         {
-          label: 'Docs',
+          label: '笔记',
+          position: 'left',
+          to: 'docs/notes/2-notes/index',
+          activeBasePath: 'docs/2-notes/notes',
+          // items: [...docNavs],
+        },
+        {
+          label: '分类',
           position: 'left',
           items: [...docNavs],
         },
