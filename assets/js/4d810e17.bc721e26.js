@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[25],{99:function(n){n.exports=JSON.parse('{"allTagsPath":"/log/2021/tags","slug":"linux","name":"linux","count":1,"permalink":"/log/2021/tags/linux"}')}}]);
