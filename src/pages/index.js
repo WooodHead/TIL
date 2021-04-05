@@ -26,7 +26,7 @@ function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
 
           <div className={styles.buttons}>
-            <Link className={styles.getStarted} to={useBaseUrl('log/2021/')}>
+            <Link className={styles.getStarted} to={useBaseUrl('docs/')}>
               Get Started
             </Link>
           </div>

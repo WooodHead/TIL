@@ -1,12 +1,20 @@
 const { appendPath, getFirstContent } = require('./src/utils');
 const { CATEGORY_SLUGS } = require('./src/constants');
 
-const docNavs = Object.entries(CATEGORY_SLUGS).map(([category, categorySlug]) => ({
+let docNavs = Object.entries(CATEGORY_SLUGS).map(([category, categorySlug]) => ({
   to: getFirstContent(category),
   activeBasePath: appendPath('docs', category),
   label: categorySlug,
 }));
 console.log('docNavs', docNavs);
+
+docNavs = [
+  {
+    to: 'docs/getting-started.md',
+    activeBasePath: 'docs/notes',
+    label: 'Notes'
+  },
+]
 
 const docFooters = docNavs.map(({ to, label }) => ({ to, label }));
 
@@ -44,14 +52,14 @@ module.exports = {
           position: 'left',
           items: [...docNavs],
         },
-        {
-          label: 'Logs',
-          position: 'left',
-          items: [
-            { to: 'log/2021', label: '2021 Log' },
-            { to: 'log/2020', label: '2020 Log' },
-          ],
-        },
+        // {
+        //   label: 'Logs',
+        //   position: 'left',
+        //   items: [
+        //     { to: 'log/2021', label: '2021 Log' },
+        //     { to: 'log/2020', label: '2020 Log' },
+        //   ],
+        // },
         {
           href: 'https://github.com/younho9/til',
           position: 'right',
