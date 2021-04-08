@@ -43,18 +43,18 @@
             <description><![CDATA[Github에 있는 Pull Request를 Local로 가져오기]]></description>
         </item>
         <item>
-            <title><![CDATA[우아한테크캠프 2일차]]></title>
-            <link>https://wooodhead.com/log/2020/우아한테크캠프-2일차</link>
-            <guid>우아한테크캠프-2일차</guid>
-            <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Github 위키와 이슈]]></description>
-        </item>
-        <item>
             <title><![CDATA[Python 배포]]></title>
             <link>https://wooodhead.com/log/2020/python-배포</link>
             <guid>python-배포</guid>
             <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[파이썬(PYTHON) #25\_ 파이썬 패키지 등록하기 (pip 배포하기)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[우아한테크캠프 2일차]]></title>
+            <link>https://wooodhead.com/log/2020/우아한테크캠프-2일차</link>
+            <guid>우아한테크캠프-2일차</guid>
+            <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Github 위키와 이슈]]></description>
         </item>
     </channel>
 </rss>
