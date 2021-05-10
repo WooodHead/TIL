@@ -15,13 +15,6 @@
         <summary type="html"><![CDATA[HTTP]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[200301]]></title>
-        <id>200301</id>
-        <link href="https://wooodhead.com/log/2020/200301"/>
-        <updated>2021-03-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[인터넷 강좌로는 이해가 안되는 점들이 많아서 '인사이드 자바스크립트' ebook을 구입해 공부한다.]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[201120]]></title>
         <id>201120</id>
         <link href="https://wooodhead.com/log/2020/201120"/>
@@ -55,5 +48,12 @@
         <link href="https://wooodhead.com/log/2020/우아한테크캠프-2일차"/>
         <updated>2021-03-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Github 위키와 이슈]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[200301]]></title>
+        <id>200301</id>
+        <link href="https://wooodhead.com/log/2020/200301"/>
+        <updated>2021-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[인터넷 강좌로는 이해가 안되는 점들이 많아서 '인사이드 자바스크립트' ebook을 구입해 공부한다.]]></summary>
     </entry>
 </feed>
