@@ -8,18 +8,18 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[210226]]></title>
-            <link>https://wooodhead.com/log/2021/210226</link>
-            <guid>210226</guid>
-            <pubDate>Mon, 05 Apr 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[빈 브랜치 생성하기]]></description>
-        </item>
-        <item>
             <title><![CDATA[210113]]></title>
             <link>https://wooodhead.com/log/2021/210113</link>
             <guid>210113</guid>
             <pubDate>Mon, 05 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[sudo: unable to resolve host 에러 해결]]></description>
+        </item>
+        <item>
+            <title><![CDATA[210226]]></title>
+            <link>https://wooodhead.com/log/2021/210226</link>
+            <guid>210226</guid>
+            <pubDate>Mon, 05 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[빈 브랜치 생성하기]]></description>
         </item>
     </channel>
 </rss>

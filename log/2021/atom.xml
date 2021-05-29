@@ -8,17 +8,17 @@
     <subtitle>📝 今日所学 Blog</subtitle>
     <icon>https://wooodhead.com/img/logo.png</icon>
     <entry>
-        <title type="html"><![CDATA[210226]]></title>
-        <id>210226</id>
-        <link href="https://wooodhead.com/log/2021/210226"/>
-        <updated>2021-04-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[빈 브랜치 생성하기]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[210113]]></title>
         <id>210113</id>
         <link href="https://wooodhead.com/log/2021/210113"/>
         <updated>2021-04-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[sudo: unable to resolve host 에러 해결]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[210226]]></title>
+        <id>210226</id>
+        <link href="https://wooodhead.com/log/2021/210226"/>
+        <updated>2021-04-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[빈 브랜치 생성하기]]></summary>
     </entry>
 </feed>
